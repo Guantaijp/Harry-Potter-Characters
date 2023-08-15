@@ -1,7 +1,7 @@
 //the function that fetches data of a single character from the API.
 
 export default async function getCharacter(id: string) {
-    const apiURL = "https://hp-api.onrender.com/api/character/${id}";
+    const apiURL = `https://hp-api.onrender.com/api/character/${id}`;
     try {
         const res = await fetch(apiURL);
         if (!res.ok) {

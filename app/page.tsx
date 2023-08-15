@@ -12,7 +12,7 @@ export default function Home() {
   const [characters, setCharacters] = useState([])
   const [filteredCharacters, setFilteredCharacters] = useState([])
   const [currentPage, setCurrentPage] = useState(1)
-  const itemsPerPage = 20
+  const itemsPerPage = 30
 
   // useEffect hook to fetch characters
   useEffect(() => {
@@ -29,7 +29,7 @@ export default function Home() {
   const currentItems = filteredCharacters.slice(indexOfFirstItem, indexOfLastItem)
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-8">
       <h1 className="text-4xl font-bold text-center mb-8">Harry Potter Characters</h1>
       <SearchCharacter characters={characters} setFilteredCharacters={setFilteredCharacters} />
       <Character character={currentItems} />
