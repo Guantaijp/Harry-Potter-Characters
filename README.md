@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Harry Potter Characters 
 
-## Getting Started
+The Web app is interview test for an intern position for a Frontend Developer. The app is built using Node.js,Tyepscript, Tailwind CSS, and React. The app is deployed on Vercel.Its a simple app that displays a list of Harry Potter characters and their details. The app also has a search bar that allows users to search for a specific character.
 
-First, run the development server:
+## Installation and Setup Instructions
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Installation:
+`npm install`
+To Start Server:
+`npm ru dev`
+To Visit App:
+`localhost:3000/`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Reflection
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This was a 2 day project built during an interview test for an intern position for a Frontend Developer. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I started this process by using the `create-next-app` boilerplate, then adding `tailwindcss` and `typescript`.
 
-## Learn More
+One of the main challenges I ran into was using the `cypress` testing library. This lead me to spend a few hours on a research spike into `cypress` and how it works.  This was a new technology I had not used before and I was able to integrate it into my application successfully.
 
-To learn more about Next.js, take a look at the following resources:
+At the end of the day, the technologies implemented in this project are `React`, `Next.js`, `Tailwind CSS`, `Typescript` and a significant amount of VanillaJS, `cypress` for testing. I chose to use the `create-next-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
