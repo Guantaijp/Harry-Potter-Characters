@@ -12,12 +12,12 @@ export default async function CharacterPosts({ promise }: Props) {
     //render the posts Here
     const content = posta.map((post) => (
 
-         <div className="bg-[#7B919C] text-[#DEDCDC] rounded-sm m-5" key={post.id}>
+         <div className=" text-[#DEDCDC] rounded-sm m-5 items-center justify-center"  key={post.id}>
             <div className="text-center">
                 <h2 className="text-4xl font-bold">{post.name}</h2>
             </div>
             <div >
-                <div className="flex">
+                <div className="flex bg-[#7B919C] w-1/2 my-10 mx-auto rounded-md" >
                     <div className=" mx-2">
                         <Image src={post.image || dummy} alt={post.name} width={300} height={300} className="rounded-md my-2"/>
                     </div>

@@ -18,17 +18,17 @@ export default function SearchCharacter({ characters, setFilteredCharacters }: a
 
   // Return the search form
   return (
-    <div className="text-center my-20">
+    <div className="text-center  my-10">
       <form onSubmit={handleSearch}>
         <input
-          className="text-black border-2 border-[#DEDCDC] rounded-full px-3 py-2"
+          className="text-black border-2 border-[#DEDCDC] rounded-tl-full rounded-bl-full px-3 py-2"
           type="text"
           placeholder="Search character..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
         <button
-          className="bg-[#57707A] text-[#DEDCDC] rounded-full px-3 py-2 hover:bg-black/60"
+          className="bg-[#57707A] text-[#DEDCDC] rounded-tr-full rounded-br-full px-3 py-2.5 hover:bg-black/60"
           type="submit"
         >
           Search
