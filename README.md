@@ -18,7 +18,7 @@ This was a 2 day project built during an interview test for an intern position f
 
 I started this process by using the `create-next-app` boilerplate, then adding `tailwindcss` and `typescript`.
 
-One of the main challenges I ran into was using the `cypress` testing library. This lead me to spend a few hours on a research spike into `cypress` and how it works.  This was a new technology I had not used before and I was able to integrate it into my application successfully.
+One of the main challenges I ran into was using the `cypress` testing library. This lead me to spend a few hours on a research spike into `cypress` and how it works.  This was a new technology I had not used before and I was not able to integrate it into my application successfully.
 
 At the end of the day, the technologies implemented in this project are `React`, `Next.js`, `Tailwind CSS`, `Typescript` and a significant amount of VanillaJS, `cypress` for testing. I chose to use the `create-next-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes.
 
