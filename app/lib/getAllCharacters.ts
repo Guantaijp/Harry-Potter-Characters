@@ -1,7 +1,7 @@
 //The function getAllCharacters() is an async function that fetches the data from the API 
 //and returns it as a JSON object. If the fetch fails, it throws an error.
 
-export default async function getCharacter() {
+export default async function getAllCharacter() {
     const apiURL = "https://hp-api.onrender.com/api/characters";
     try {
         const res = await fetch(apiURL);
