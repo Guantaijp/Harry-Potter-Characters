@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import type { Metadata } from 'next'
 import { Suspense } from "react"
 import CharacterPosts from "./character/CharacterPosts";
@@ -22,15 +21,13 @@ export async function generateMetadata({ params: { id } }: Params): Promise<Meta
 }
 
 //main component
-export default async function CharacterPage({
+export default function CharacterPage({
     params,
 }: {
-    children: ReactNode;
     params: { id: string };
 }) {
-
-    //fetch the data
-    const characterPostData: Promise<Post[]> = await getCharacter(params.id)
+    // Fetch the data
+    const characterPostData: Promise<Post[]> = getCharacter(params.id);
 
     return (
         //render the component

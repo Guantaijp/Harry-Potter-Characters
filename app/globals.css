@@ -7,6 +7,7 @@
   margin-left: auto;
   margin-right: auto;
 
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,4 +17,5 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+ 
+/* media */
