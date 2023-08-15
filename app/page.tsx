@@ -29,23 +29,23 @@ export default function Home() {
   const currentItems = filteredCharacters.slice(indexOfFirstItem, indexOfLastItem)
 
   return (
-    <div className="container mx-auto my-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Harry Potter Characters</h1>
+    <div className="container mx-auto my-8 ">
+      <h1 className="text-4xl font-bold text-center m-8 text-[#DEDCDC]">Harry Potter Characters</h1>
       <SearchCharacter characters={characters} setFilteredCharacters={setFilteredCharacters} />
       <Character character={currentItems} />
       <div className="flex justify-center my-8">
         <button
-          className="bg-black text-white rounded-full px-3 py-2 hover:bg-black/60"
+          className="bg-[#57707A] text-[#DEDCDC] rounded-full px-3 py-2 hover:bg-black/60"
           onClick={() => setCurrentPage(currentPage - 1)}
           disabled={currentPage === 1}
         >
           Previous
         </button>
-        <span className="mx-4">
+        <span className="mx-4 mt-2 text-[#DEDCDC]">
           {currentPage} of {Math.ceil(filteredCharacters.length / itemsPerPage)}
         </span>
         <button
-          className="bg-black text-white rounded-full px-3 py-2 hover:bg-black/60"
+          className="bg-[#57707A] text-[#DEDCDC] rounded-full px-3 py-2 hover:bg-black/60"
           onClick={() => setCurrentPage(currentPage + 1)}
           disabled={indexOfLastItem >= filteredCharacters.length}
         >

@@ -21,14 +21,14 @@ export default function SearchCharacter({ characters, setFilteredCharacters }: a
     <div className="text-center my-20">
       <form onSubmit={handleSearch}>
         <input
-          className="text-black border-2 border-black rounded-full px-3 py-2"
+          className="text-black border-2 border-[#DEDCDC] rounded-full px-3 py-2"
           type="text"
           placeholder="Search character..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
         <button
-          className="bg-black text-white rounded-full px-3 py-2 hover:bg-black/60"
+          className="bg-[#57707A] text-[#DEDCDC] rounded-full px-3 py-2 hover:bg-black/60"
           type="submit"
         >
           Search

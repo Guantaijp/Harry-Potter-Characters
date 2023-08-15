@@ -21,7 +21,7 @@ export default function Character({ character }: Props) {
             {character.map((character) => (
                 <Link className="" key={character.id} href={`/character/${character.id}`}>
                     <div
-                        className="flex p-2   bg-white rounded-md shadow-md overflow-hidden"
+                        className="flex p-2   bg-[#4b6169] rounded-md shadow-md overflow-hidden"
                     >
                         <div className=" flex  w-12 h-12 ">
                             <Image
@@ -33,10 +33,10 @@ export default function Character({ character }: Props) {
                             />
                         </div>
                         <div className="my-auto mx-2">
-                            <h3 className="text-gray-900 font-bold text-xl">
+                            <h3 className="text-[#DEDCDC] font-bold text-xl">
                                 {character.name}
                             </h3>
-                            <p className="text-gray-600 text-sm">
+                            <p className="text-[#DEDCDC] text-sm">
                                 D.O.B:  {character.dateOfBirth || "Unknown"}
                             </p>
                         </div>
